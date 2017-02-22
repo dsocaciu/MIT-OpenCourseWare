@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# fm_casestudy_0_InstallOrLoadLibraries.r\n\n#   * Install/load R packages \n#   * Collect historical financial data from internet\n#   * Create time series data matrix: casestudy1.data0.0\n#         Closing prices on stocks (BAC, GE, JDSU, XOM)\n#         Closing values of indexes (SP500)\n#         Yields on constant maturity US rates/bonds (3MO, 1YR, 5YR, 10 YR)\n#         Closing price on crude oil spot price\n# 0. Install and load packages ----\n#\n# 0.1 Install packages ---\n#     Set ind.install0 to TRUE if running script for first time on a computer\n#     or updating the packages\nind.install0<-FALSE\n#\nif (ind.install0){\n  install.packages(\"quantmod\") \n  install.packages(\"tseries\") \n  install.packages(\"vars\")\n  install.packages(\"fxregime\")\n  install.packages(\"moments\")\n  install.packages(\"rugarch\")\n  install.packages(\"xts\")\n}\n# 0.2 Load packages into R session\n\nlibrary(\"quantmod\")  \nlibrary(\"tseries\")  \nlibrary(\"vars\")  \nlibrary(\"fxregime\")  \nlibrary(\"moments\")  \nlibrary(\"rugarch\")  \n",
+    "created" : 1481141734856.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "753948496",
+    "id" : "FDADBFEE",
+    "lastKnownWriteTime" : 1481144953,
+    "last_content_update" : 1481144953801,
+    "path" : "~/Dev/R/Topics in Mathematics /fm_casestudy1/fm_casestudy_0_InstallOrLoadLibraries.r",
+    "project_path" : "fm_casestudy_0_InstallOrLoadLibraries.r",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
